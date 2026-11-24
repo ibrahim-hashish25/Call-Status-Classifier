@@ -6,7 +6,7 @@ from openpyxl import load_workbook
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, pipeline
 
 MODEL_NAME = "CAMeL-Lab/bert-base-arabic-camelbert-da-sentiment"
-SHEET_NAME = "البيانات"
+SHEET_NAME = "Data"
 NOTES_COLUMN = "Notes"
 OUTPUT_COLUMN = "حالة المكالمة"
 
